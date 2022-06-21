@@ -1,28 +1,30 @@
 import React from "react";
-import { Col, Container, Row, Button } from "react-bootstrap";
+import { Col, Container, Row, Button, Card } from "react-bootstrap";
 import "./Services.css";
 
 const Services = () => {
   return (
     <div className="s">
       <Container className="s-container">
-        <Row className="s-title">
-          <Col>
-            <h1>Penjemputan Sampah</h1>
-          </Col>
-        </Row>
-        <Row className="mt-5">
-          <Col>
-            <h5>Untuk penjemputan sampah silahkan klik tombol dibawah</h5>
-            <Button
-              variant="success"
-              className="mt-5"
-              href="https://api.whatsapp.com/send?phone=085888808593"
-            >
-              Klik
-            </Button>
-          </Col>
-        </Row>
+        <Card className="s-card">
+          <Card.Body className="s-cardBody">
+            <Row className="mt-5">
+              <Col>
+                <h5>
+                  Untuk melakukan penjemputan sampah silahkan klik tombol
+                  dibawah ini
+                </h5>
+                <Button
+                  variant="success"
+                  className="mt-5"
+                  href="https://api.whatsapp.com/send?phone=085888808593"
+                >
+                  Click here
+                </Button>
+              </Col>
+            </Row>
+          </Card.Body>
+        </Card>
       </Container>
     </div>
   );

@@ -11,7 +11,7 @@ const About = () => {
             <h1>Tentang Kami</h1>
           </Col>
         </Row>
-        <Row className="mt-5">
+        <Row xs={1} md={2} className="mt-5">
           <Col>
             <p className="a-emot">😎</p>
             Panji Wahyu Pambudi
@@ -23,14 +23,14 @@ const About = () => {
             <p>COO</p>
           </Col>
         </Row>
-        <Row>
+        <Row xs={1}>
           <Col>
             <p className="a-emot">😎</p>
             Bima Farid Daffa
             <p>CEO</p>
           </Col>
         </Row>
-        <Row>
+        <Row xs={1} md={2}>
           <Col>
             <p className="a-emot">😎</p>
             Faisal Rianto

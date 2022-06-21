@@ -7,7 +7,7 @@ import logo from "./img/logo.png";
 const NavigationBar = () => {
   return (
     <div>
-      <Navbar className="navbar" expand="lg">
+      <Navbar className="navbar" expand="md">
         <Container>
           <Navbar.Brand>
             <img

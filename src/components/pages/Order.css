@@ -7,7 +7,7 @@
 }
 
 .o-container {
-  height: 89.8vh;
+  height: 100vh;
 }
 
 .o-title {
@@ -20,4 +20,9 @@ h1 {
 
 .o-card {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 15px;
+}
+
+.o-gambar {
+  height: 250px;
 }
