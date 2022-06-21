@@ -1,0 +1,23 @@
+.o {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fdfbdc;
+}
+
+.o-container {
+  height: 89.8vh;
+}
+
+.o-title {
+  padding-top: 5rem;
+}
+
+h1 {
+  color: #84c441;
+}
+
+.o-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

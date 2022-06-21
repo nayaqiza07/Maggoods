@@ -1,0 +1,15 @@
+.s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fdfbdc;
+}
+
+.s-container {
+  height: 89.8vh;
+}
+
+.s-title {
+  padding-top: 5rem;
+}

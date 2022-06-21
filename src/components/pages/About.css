@@ -1,0 +1,15 @@
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fdfbdc;
+}
+
+.a-container {
+  height: 89.8vh;
+}
+
+.a-title {
+  padding-top: 5rem;
+}
